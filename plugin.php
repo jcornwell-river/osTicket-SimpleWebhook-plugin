@@ -1,11 +1,11 @@
 <?php
 
 return array(
-    'id'          => 'osticket:teams',
+    'id'          => 'osticket:simplewebhook',
     'version'     => '0.1',
-    'name'        => 'Teams notifier',
-    'author'      => 'Ivan Pavlović',
-    'description' => 'Notify Teams on new ticket.',
-    'url'         => 'https://github.com/ipavlovi/osTicket-Microsoft-Teams-plugin',
+    'name'        => 'SimpleWebhook',
+    'author'      => 'JeremyCornwell',
+    'description' => 'Notify APIs on new ticket.',
+    'url'         => 'https://github.com/jcornwell-river/osTicket-SimpleWebhook-plugin/edit/master/plugin.php',
     'plugin'      => 'teams.php:TeamsPlugin',
 );
